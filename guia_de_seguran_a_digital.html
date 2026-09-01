@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Segurança Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <input type="radio" id="fonte-normal" name="tamanhoFonte" class="escondido" checked>
+    <input type="radio" id="fonte-grande" name="tamanhoFonte" class="escondido">
+    <input type="radio" id="fonte-gigante" name="tamanhoFonte" class="escondido">
+    <input type="checkbox" id="contraste-alto" class="escondido">
+
+    <!-- BARRA DE ACESSIBILIDADE -->
+    <aside aria-label="Controles de Acessibilidade" class="barra-acessibilidade">
+        <div class="conteudo-acessibilidade">
+            <span class="rotulo-acessibilidade">
+                <span>👁️</span> Acessibilidade:
+            </span>
+
+            <div class="grupo-acessibilidade">
+                <span class="rotulo-tamanho-fonte">Tamanho da Letra:</span>
+                <div class="opcoes-fonte">
+                    <label for="fonte-normal" class="botao-fonte" title="Tamanho de texto Normal">A</label>
+                    <label for="fonte-grande" class="botao-fonte botao-fonte-medio" title="Tamanho de texto Grande">A+</label>
+                    <label for="fonte-gigante" class="botao-fonte botao-fonte-grande" title="Tamanho de texto Muito Grande">A++</label>
+                </div>
+
+                <div class="divisor-barra"></div>
+
+                <label for="contraste-alto" class="botao-contraste">
+                    <span>🌓</span> Alto Contraste
+                </label>
+            </div>
+        </div>
+    </aside>
+
+    <!-- CABEÇALHO DA PÁGINA -->
+    <header class="cabecalho-principal">
+        <div class="conteudo-cabecalho">
+
+            <div class="coluna-texto-cabecalho">
+                <div class="etiqueta-destaque">
+                    🛡️ Guia Oficial para Terceira Idade
+                </div>
+                <h1 class="titulo-cabecalho">
+                    Guia de Segurança Digital
+                </h1>
+                <p class="descricao-cabecalho">
+                    Proteja-se e navegue com tranquilidade.
+                </p>
+            </div>
+
+            <div class="coluna-botoes-cabecalho">
+                <a href="#emergencia" class="botao-perigo">
+                    <span class="icone-botao-socorro">🆘</span>
+                    <span>PRECISO DE AJUDA AGORA</span>
+                </a>
+                <a href="#dicas-importantes" class="botao-destaque">
+                    <span>💡 Ver Dicas Rápidas</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL DO GUIA -->
+    <main class="conteudo-principal">
+
+        <!-- SEÇÃO 1: DICAS IMPORTANTES -->
+        <section id="dicas-importantes" class="secao-bloco" aria-labelledby="dicas-titulo">
+            <div class="cabecalho-secao">
+                <span class="numero-secao">1</span>
+                <h2 id="dicas-titulo" class="titulo-secao">
+                    Dicas Importantes
+                </h2>
+            </div>
+
+            <div class="grade-tres-colunas">
+
+                <div class="cartao-conteudo">
+                    <div>
+                        <div class="icone-cartao icone-cartao-vermelho">🛑</div>
+                        <h3 class="titulo-cartao">1. Use senhas fortes</h3>
+                        <p class="texto-cartao">
+                            Prefira frases longas e fáceis de lembrar.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cartao-conteudo">
+                    <div>
+                        <div class="icone-cartao">🔑</div>
+                        <h3 class="titulo-cartao">2. Desconfie de urgências</h3>
+                        <p class="texto-cartao">
+                            Se alguém pedir dinheiro rápido dizendo que é emergência, pare e ligue para a pessoa antes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cartao-conteudo">
+                    <div>
+                        <div class="icone-cartao icone-cartao-azul-claro">📞</div>
+                        <h3 class="titulo-cartao">3. Não clique em links</h3>
+                        <p class="texto-cartao">
+                            Evite clicar em links recebidos por mensagem ou e-mail de desconhecidos.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: DIREITOS -->
+        <section class="secao-bloco" aria-labelledby="direitos-titulo">
+            <div class="cabecalho-secao">
+                <span class="numero-secao">2</span>
+                <h2 id="direitos-titulo" class="titulo-secao">
+                    Seus Direitos na Internet
+                </h2>
+            </div>
+
+            <div class="grade-duas-colunas">
+
+                <div class="cartao-conteudo cartao-horizontal">
+                    <span class="icone-cartao icone-cartao-azul">🛡️</span>
+                    <div>
+                        <h3 class="titulo-cartao">Direito à Privacidade (LGPD)</h3>
+                        <p class="texto-cartao">Nenhuma empresa ou pessoa pode vender ou passar seus dados sem a sua permissão.</p>
+                    </div>
+                </div>
+
+                <div class="cartao-conteudo cartao-horizontal">
+                    <span class="icone-cartao icone-cartao-azul">🚫</span>
+                    <div>
+                        <h3 class="titulo-cartao">Sem Empréstimos Forçados</h3>
+                        <p class="texto-cartao">Bancos não podem contratar serviços na sua conta sem o seu pedido direto.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ DA PÁGINA -->
+    <footer class="rodape-pagina">
+        <div class="conteudo-rodape">
+            <p class="titulo-rodape">Guia Prático de Segurança Digital para Idosos</p>
+            <p class="subtitulo-rodape">Desenvolvido com carinho para garantir sua segurança e tranquilidade na internet.</p>
+        </div>
+    </footer>
+
+    <!-- JANELA POPUP EXIBIDA POR PADRÃO NA FRENTE -->
+    <div id="emergencia" class="modal-de-ajuda" role="dialog" aria-labelledby="emergencia-titulo" aria-modal="true">
+        <div class="bloco-emergencia">
+            
+            <div class="cabecalho-emergencia-bloco">
+                <h2 id="emergencia-titulo" class="titulo-emergencia">
+                    O que fazer agora?
+                </h2>
+                <a href="#" class="botao-fechar-modal" aria-label="Fechar janela" title="Fechar janela">✕</a>
+            </div>
+
+            <p class="descricao-emergencia">
+                Se você acha que caiu em um golpe ou está com medo de uma mensagem:
+            </p>
+
+            <ol class="lista-passos-modal">
+                <li><strong>Pare tudo o que está fazendo.</strong></li>
+                <li><strong>Ligue para um filho, neto ou amigo próximo.</strong></li>
+                <li><strong>Ligue para o seu banco</strong> usando o número que está atrás do seu cartão.</li>
+                <li><strong>Registre um Boletim de Ocorrência</strong> na delegacia mais próxima ou pela internet.</li>
+            </ol>
+
+            <div class="caixa-fechar-modal">
+                <a href="#" class="botao-entendi-modal">
+                    Entendi / Fechar
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // Fecha a modal ao clicar em fechar ou entendi
+        document.querySelectorAll('.botao-fechar-modal, .botao-entendi-modal').forEach(botao => {
+            botao.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.getElementById('emergencia').style.display = 'none';
+            });
+        });
+    </script>
+
+</body>
+
+</html>
